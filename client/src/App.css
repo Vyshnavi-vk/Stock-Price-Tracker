@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 70px;
+  background-color: rgb(29, 138, 116);
+  color: white;
+}
+
+
+.select-options,
+.p {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+
+.select-options .values {
+  height: 30px;
+  width: 200px;
+}
+
+
+
+.button {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+  margin-top: 30px;
+  align-items: center;
+  height: 30px;
+  margin-left: 45%;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-left: 40%;
+  background-color: aqua;
+  margin-top: 40px;
+  height: 200px;
+  width: 300px;
+}
+
+@media only screen and (max-width: 996px) {
+  .container {
+    margin-left: 35%;
+  }
+}
+
+
+@media only screen and (max-width: 750px) {
+  .container {
+    margin-left: 30%;
+  }
+
+  .button {
+    margin-left: 43%;
+  }
+}
+
+
+
+
+@media only screen and (max-width: 650px) {
+  .container {
+    margin-left: 25%;
+  }
+
+  .button {
+    margin-left: 40%;
+  }
+}
+
+@media only screen and (max-width: 527px) {
+  .container {
+    margin-left: 22%;
+  }
+
+  .button {
+    margin-left: 37%;
+  }
+
+  .title {
+    font-size: 25px;
+  }
+}
+
+
+
+@media only screen and (max-width: 420px) {
+  .container {
+    margin-left: 20%;
+  }
+
+  .button {
+    margin-left: 35%;
+  }
+
+  .title {
+    font-size: 20px;
+  }
+}
+
+
+@media only screen and (max-width: 380px) {
+  .container {
+    margin-left: 20%;
+
+  }
+
+  .button {
+    margin-left: 35%;
+  }
+
+  .title {
+    font-size: 25px;
+    width: 120%;
+  }
+}
+
+
+
+@media only screen and (max-width: 300px) {
+  .container {
+    margin-left: 38%;
+    height: 150px;
+    width: 150px;
+  }
+
+  .button {
+    margin-left: 35%;
+  }
+
+  .title {
+    font-size: 18px;
+    width: 120%;
+  }
+
+  .select-options,
+  .p {
+    margin-left: 20%;
+  }
+}
